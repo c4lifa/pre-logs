@@ -1,9 +1,0 @@
-travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: i-0198448-precise-production-2-worker-org-docker.travisci.net:ee698563-7d68-4d5f-9b65-7e95a80faee9
-version: v2.5.0 https://github.com/travis-ci/worker/tree/da3a43228dffc0fcca5a46569ca786b22991979f
-instance: 9e8e23c:travis:node_js
-startup: 784.172168ms
-travis_fold:end:worker_info[0K
-
-Done: Job Cancelled
-
