@@ -1,8 +1,8 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: i-0a48c16-precise-production-2-worker-org-docker.travisci.net:e70a3411-817d-4bcb-a504-5344818751b6
+hostname: i-045deef-precise-production-2-worker-org-docker.travisci.net:f49fab48-c51d-4dd4-9282-38ababf15c99
 version: v2.5.0 https://github.com/travis-ci/worker/tree/da3a43228dffc0fcca5a46569ca786b22991979f
-instance: 7cc0e1f:travis:node_js
-startup: 804.727261ms
+instance: d0c06ed:travis:node_js
+startup: 495.447297ms
 travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: node_js
 Build group: stable
@@ -71,6 +71,7 @@ Java home: /usr/lib/jvm/java-7-oracle/jre
 Default locale: en_US, platform encoding: ANSI_X3.4-1968
 OS name: "linux", version: "3.13.0-29-generic", arch: "amd64", family: "unix"
 travis_fold:end:system_info[0K
+travis_fold:start:fix.CVE-2015-7547[0K$ export DEBIAN_FRONTEND=noninteractive
 
 
 Done: Job Cancelled
