@@ -197,3 +197,12 @@ learn-travis@1.0.0 /home/travis/build/c4lifa/travis
 [37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m learn-travis@1.0.0 No license field.
 [0m
 travis_time:end:1bc422ec:start=1497393063880645675,finish=1497393066681354604,duration=2800708929[0Ktravis_fold:end:install[0Ktravis_time:start:16fca29c[0K$ npm test
+
+> learn-travis@1.0.0 test /home/travis/build/c4lifa/travis
+> ./node_modules/jshint/bin/jshint hello.js
+
+
+travis_time:end:16fca29c:start=1497393066686592728,finish=1497393067577444100,duration=890851372[0K
+[32;1mThe command "npm test" exited with 0.[0m
+
+Done. Your build exited with 0.
