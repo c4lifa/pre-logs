@@ -1,8 +1,8 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: i-0c14ffc-precise-production-2-worker-org-docker.travisci.net:05ea5917-2d13-48d6-bf42-49a0a0407a9c
+hostname: i-049f499-precise-production-2-worker-org-docker.travisci.net:cffbebaa-aa16-4068-86bd-84e6a3643b91
 version: v2.5.0 https://github.com/travis-ci/worker/tree/da3a43228dffc0fcca5a46569ca786b22991979f
-instance: b7ae1dd:travis:node_js
-startup: 489.929635ms
+instance: 4cae2c9:travis:node_js
+startup: 1.111437417s
 travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: node_js
 Build group: stable
@@ -71,7 +71,3 @@ Java home: /usr/lib/jvm/java-7-oracle/jre
 Default locale: en_US, platform encoding: ANSI_X3.4-1968
 OS name: "linux", version: "3.13.0-29-generic", arch: "amd64", family: "unix"
 travis_fold:end:system_info[0K
-
-
-Done: Job Cancelled
-
