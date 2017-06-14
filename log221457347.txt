@@ -161,3 +161,52 @@ $ npm --version
 $ nvm --version
 0.33.2
 travis_fold:start:install[0Ktravis_time:start:017d82e0[0K$ npm install 
+learn-travis@1.0.0 /home/travis/build/c4lifa/travis
+└─┬ [40m[33mjshint@2.9.4[39m[49m 
+  ├─┬ [40m[33mcli@1.0.1[39m[49m 
+  │ └─┬ [40m[33mglob@7.1.2[39m[49m 
+  │   ├── [40m[33mfs.realpath@1.0.0[39m[49m 
+  │   ├─┬ [40m[33minflight@1.0.6[39m[49m 
+  │   │ └── [40m[33mwrappy@1.0.2[39m[49m 
+  │   ├── [40m[33minherits@2.0.3[39m[49m 
+  │   ├── [40m[33monce@1.4.0[39m[49m 
+  │   └── [40m[33mpath-is-absolute@1.0.1[39m[49m 
+  ├─┬ [40m[33mconsole-browserify@1.1.0[39m[49m 
+  │ └── [40m[33mdate-now@0.1.4[39m[49m 
+  ├── [40m[33mexit@0.1.2[39m[49m 
+  ├─┬ [40m[33mhtmlparser2@3.8.3[39m[49m 
+  │ ├── [40m[33mdomelementtype@1.3.0[39m[49m 
+  │ ├── [40m[33mdomhandler@2.3.0[39m[49m 
+  │ ├─┬ [40m[33mdomutils@1.5.1[39m[49m 
+  │ │ └─┬ [40m[33mdom-serializer@0.1.0[39m[49m 
+  │ │   ├── [40m[33mdomelementtype@1.1.3[39m[49m 
+  │ │   └── [40m[33mentities@1.1.1[39m[49m 
+  │ ├── [40m[33mentities@1.0.0[39m[49m 
+  │ └─┬ [40m[33mreadable-stream@1.1.14[39m[49m 
+  │   ├── [40m[33mcore-util-is@1.0.2[39m[49m 
+  │   ├── [40m[33misarray@0.0.1[39m[49m 
+  │   └── [40m[33mstring_decoder@0.10.31[39m[49m 
+  ├── [40m[33mlodash@3.7.0[39m[49m 
+  ├─┬ [40m[33mminimatch@3.0.4[39m[49m 
+  │ └─┬ [40m[33mbrace-expansion@1.1.8[39m[49m 
+  │   ├── [40m[33mbalanced-match@1.0.0[39m[49m 
+  │   └── [40m[33mconcat-map@0.0.1[39m[49m 
+  ├── [40m[33mshelljs@0.3.0[39m[49m 
+  └── [40m[33mstrip-json-comments@1.0.4[39m[49m 
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m learn-travis@1.0.0 No license field.
+[0m
+travis_time:end:017d82e0:start=1497465224404771067,finish=1497465230144790975,duration=5740019908[0Ktravis_fold:end:install[0Ktravis_time:start:197ba180[0K$ npm test
+
+> learn-travis@1.0.0 test /home/travis/build/c4lifa/travis
+> ./node_modules/jshint/bin/jshint hello.js
+
+hello.js: line 4, col 29, Missing semicolon.
+
+1 error
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0m
+travis_time:end:197ba180:start=1497465230168878083,finish=1497465231656724022,duration=1487845939[0K
+[31;1mThe command "npm test" exited with 1.[0m
+
+Done. Your build exited with 1.
