@@ -206,3 +206,7 @@ hello.js: line 5, col 29, Missing semicolon.
 1 error
 [37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
 [0m
+travis_time:end:02224674:start=1497463540661853651,finish=1497463541528040493,duration=866186842[0K
+[31;1mThe command "npm test" exited with 1.[0m
+
+Done. Your build exited with 1.
