@@ -161,3 +161,7 @@ $ npm --version
 $ nvm --version
 0.33.2
 travis_fold:start:install[0Ktravis_time:start:0872a10a[0K$ npm install 
+
+
+Done: Job Cancelled
+
