@@ -1,1 +1,7 @@
+[31;1mERROR:[0m An error occured while trying to parse your .travis.yml file.
 
+Please make sure that the file is valid YAML.
+
+http://lint.travis-ci.org can check your .travis.yml.
+
+The log message was: Build config file had a parse error: did not find expected key while parsing a block mapping at line 1 column 1.
