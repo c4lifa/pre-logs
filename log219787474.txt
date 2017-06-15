@@ -198,6 +198,10 @@ learn-travis@1.0.0 /home/travis/build/c4lifa/travis
 [0m
 travis_time:end:154eb400:start=1497535586936439383,finish=1497535590359412387,duration=3422973004[0Ktravis_fold:end:install[0Ktravis_time:start:01654dbf[0K$ npm test
 
+> learn-travis@1.0.0 test /home/travis/build/c4lifa/travis
+> ./node_modules/jshint/bin/jshint hello.js
+
+
 travis_time:end:01654dbf:start=1497535590365130935,finish=1497535591340767283,duration=975636348[0K
 [32;1mThe command "npm test" exited with 0.[0m
 
