@@ -1,8 +1,8 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: i-08db745-precise-production-2-worker-org-docker.travisci.net:6590227e-6a1e-4780-bd96-0993710d6896
+hostname: i-09858fa-precise-production-2-worker-org-docker.travisci.net:a0514404-a18a-43b1-91e0-14a0a08b20dc
 version: v2.5.0 https://github.com/travis-ci/worker/tree/da3a43228dffc0fcca5a46569ca786b22991979f
-instance: ef92d90:travis:node_js
-startup: 742.683454ms
+instance: 48b5574:travis:node_js
+startup: 701.853158ms
 travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: node_js
 Build group: stable
@@ -71,5 +71,3 @@ Java home: /usr/lib/jvm/java-7-oracle/jre
 Default locale: en_US, platform encoding: ANSI_X3.4-1968
 OS name: "linux", version: "3.13.0-29-generic", arch: "amd64", family: "unix"
 travis_fold:end:system_info[0K
-travis_fold:start:fix.CVE-2015-7547[0K$ export DEBIAN_FRONTEND=noninteractive
-Reading package lists...
