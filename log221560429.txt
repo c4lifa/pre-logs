@@ -157,3 +157,52 @@ travis_time:end:00a08c60:start=1497914423870878480,finish=1497914426563634765,du
 $ node --version
 v6.11.0
 $ npm --version
+3.10.10
+$ nvm --version
+0.33.2
+travis_fold:start:install[0Ktravis_time:start:18dbe564[0K$ npm install 
+learn-travis@1.0.0 /home/travis/build/c4lifa/travis
+└─┬ [40m[33mjshint@2.9.4[39m[49m 
+  ├─┬ [40m[33mcli@1.0.1[39m[49m 
+  │ └─┬ [40m[33mglob@7.1.2[39m[49m 
+  │   ├── [40m[33mfs.realpath@1.0.0[39m[49m 
+  │   ├─┬ [40m[33minflight@1.0.6[39m[49m 
+  │   │ └── [40m[33mwrappy@1.0.2[39m[49m 
+  │   ├── [40m[33minherits@2.0.3[39m[49m 
+  │   ├── [40m[33monce@1.4.0[39m[49m 
+  │   └── [40m[33mpath-is-absolute@1.0.1[39m[49m 
+  ├─┬ [40m[33mconsole-browserify@1.1.0[39m[49m 
+  │ └── [40m[33mdate-now@0.1.4[39m[49m 
+  ├── [40m[33mexit@0.1.2[39m[49m 
+  ├─┬ [40m[33mhtmlparser2@3.8.3[39m[49m 
+  │ ├── [40m[33mdomelementtype@1.3.0[39m[49m 
+  │ ├── [40m[33mdomhandler@2.3.0[39m[49m 
+  │ ├─┬ [40m[33mdomutils@1.5.1[39m[49m 
+  │ │ └─┬ [40m[33mdom-serializer@0.1.0[39m[49m 
+  │ │   ├── [40m[33mdomelementtype@1.1.3[39m[49m 
+  │ │   └── [40m[33mentities@1.1.1[39m[49m 
+  │ ├── [40m[33mentities@1.0.0[39m[49m 
+  │ └─┬ [40m[33mreadable-stream@1.1.14[39m[49m 
+  │   ├── [40m[33mcore-util-is@1.0.2[39m[49m 
+  │   ├── [40m[33misarray@0.0.1[39m[49m 
+  │   └── [40m[33mstring_decoder@0.10.31[39m[49m 
+  ├── [40m[33mlodash@3.7.0[39m[49m 
+  ├─┬ [40m[33mminimatch@3.0.4[39m[49m 
+  │ └─┬ [40m[33mbrace-expansion@1.1.8[39m[49m 
+  │   ├── [40m[33mbalanced-match@1.0.0[39m[49m 
+  │   └── [40m[33mconcat-map@0.0.1[39m[49m 
+  ├── [40m[33mshelljs@0.3.0[39m[49m 
+  └── [40m[33mstrip-json-comments@1.0.4[39m[49m 
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m learn-travis@1.0.0 No license field.
+[0m
+travis_time:end:18dbe564:start=1497914430606184475,finish=1497914433780990417,duration=3174805942[0Ktravis_fold:end:install[0Ktravis_time:start:1be788d8[0K$ npm test
+
+> learn-travis@1.0.0 test /home/travis/build/c4lifa/travis
+> ./node_modules/jshint/bin/jshint hello.js
+
+
+travis_time:end:1be788d8:start=1497914433786384648,finish=1497914434673861642,duration=887476994[0K
+[32;1mThe command "npm test" exited with 0.[0m
+
+Done. Your build exited with 0.
