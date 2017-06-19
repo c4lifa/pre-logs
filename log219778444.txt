@@ -140,4 +140,40 @@ Checking connectivity... done.
 
 travis_time:end:11844708:start=1497913315575780241,finish=1497913316203857827,duration=628077586[0K$ cd c4lifa/travis
 $ git checkout -qf e48893917b6f8ad68d485d25cb76c5f15f633208
-travis_fold:end:git.checkout[0K
+travis_fold:end:git.checkout[0Ktravis_time:start:10113ce0[0K$ phpenv global 5.5 2>/dev/null
+
+travis_time:end:10113ce0:start=1497913321550079256,finish=1497913321634479902,duration=84400646[0Ktravis_time:start:00ba4600[0K$ phpenv global 5.5
+
+travis_time:end:00ba4600:start=1497913321651722098,finish=1497913321712125879,duration=60403781[0Ktravis_time:start:139962e4[0K$ composer self-update 1.0.0
+Updating to version [32m1.0.0[39m.
+    Downloading: [33mconnection...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1d8f05f1dd0e390f253f79ea86cd505178360019
+
+travis_time:end:139962e4:start=1497913322603837373,finish=1497913324617074402,duration=2013237029[0Ktravis_time:start:2164ce51[0K$ composer self-update
+[30;43mYou are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug[39;49m
+Updating to version [32m1.4.2[39m.
+    Downloading: [33mConnecting...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1.0.0
+
+travis_time:end:2164ce51:start=1497913324629400311,finish=1497913327396209784,duration=2766809473[0K$ php --version
+PHP 5.5.21 (cli) (built: Feb 12 2015 01:29:17) 
+Copyright (c) 1997-2014 The PHP Group
+Zend Engine v2.5.0, Copyright (c) 1998-2014 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2014, by Zend Technologies
+    with Xdebug v2.2.7, Copyright (c) 2002-2015, by Derick Rethans
+$ composer --version
+[32mComposer[39m version [33m1.4.2[39m 2017-05-17 08:17:52
+[0m
+travis_time:start:117cd098[0K$ phpunit Test.php
+PHPUnit 4.5.0 by Sebastian Bergmann and contributors.
+
+.
+
+Time: 74 ms, Memory: 3.75Mb
+
+OK (1 test, 1 assertion)
+
+travis_time:end:117cd098:start=1497913328043199338,finish=1497913328353635698,duration=310436360[0K
+[32;1mThe command "phpunit Test.php" exited with 0.[0m
+
+Done. Your build exited with 0.
