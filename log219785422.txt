@@ -1,8 +1,8 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: i-0e14df6-precise-production-2-worker-org-docker.travisci.net:ce51359c-123a-447e-bb75-80bd73d78617
+hostname: i-08760aa-precise-production-2-worker-org-docker.travisci.net:561e6c05-eea0-4490-a61d-c8b72762dccc
 version: v2.5.0 https://github.com/travis-ci/worker/tree/da3a43228dffc0fcca5a46569ca786b22991979f
-instance: 5be997e:travis:node_js
-startup: 778.078381ms
+instance: 91d4069:travis:node_js
+startup: 449.804254ms
 travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: node_js
 Build group: stable
