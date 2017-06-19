@@ -144,4 +144,36 @@ travis_fold:end:git.checkout[0Ktravis_time:start:1627a816[0K$ phpenv global 
 
 travis_time:end:1627a816:start=1497912686891293667,finish=1497912686958698859,duration=67405192[0Ktravis_time:start:16304c6d[0K$ phpenv global 5.5
 
-travis_time:end:16304c6d:start=1497912686981566150,finish=1497912687063315334,duration=81749184[0K
+travis_time:end:16304c6d:start=1497912686981566150,finish=1497912687063315334,duration=81749184[0Ktravis_time:start:17d89ceb[0K$ composer self-update 1.0.0
+Updating to version [32m1.0.0[39m.
+    Downloading: [33mconnection...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1d8f05f1dd0e390f253f79ea86cd505178360019
+
+travis_time:end:17d89ceb:start=1497912687839707833,finish=1497912690045532312,duration=2205824479[0Ktravis_time:start:01da629e[0K$ composer self-update
+[30;43mYou are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug[39;49m
+Updating to version [32m1.4.2[39m.
+    Downloading: [33mConnecting...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1.0.0
+
+travis_time:end:01da629e:start=1497912690061874113,finish=1497912692995183403,duration=2933309290[0K$ php --version
+PHP 5.5.21 (cli) (built: Feb 12 2015 01:29:17) 
+Copyright (c) 1997-2014 The PHP Group
+Zend Engine v2.5.0, Copyright (c) 1998-2014 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2014, by Zend Technologies
+    with Xdebug v2.2.7, Copyright (c) 2002-2015, by Derick Rethans
+$ composer --version
+[32mComposer[39m version [33m1.4.2[39m 2017-05-17 08:17:52
+[0m
+travis_time:start:05200f80[0K$ phpunit Test.php
+PHPUnit 4.5.0 by Sebastian Bergmann and contributors.
+
+.
+
+Time: 80 ms, Memory: 3.75Mb
+
+OK (1 test, 1 assertion)
+
+travis_time:end:05200f80:start=1497912693527615125,finish=1497912693845764445,duration=318149320[0K
+[32;1mThe command "phpunit Test.php" exited with 0.[0m
+
+Done. Your build exited with 0.
