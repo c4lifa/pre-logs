@@ -93,3 +93,40 @@ Preconfiguring packages ...
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70845 files and directories currently installed.)
 Preparing to replace libc6-dev 2.15-0ubuntu10.10 (using .../libc6-dev_2.15-0ubuntu10.18_amd64.deb) ...
 Unpacking replacement libc6-dev ...
+Preparing to replace libc-dev-bin 2.15-0ubuntu10.10 (using .../libc-dev-bin_2.15-0ubuntu10.18_amd64.deb) ...
+Unpacking replacement libc-dev-bin ...
+Preparing to replace libc-bin 2.15-0ubuntu10.10 (using .../libc-bin_2.15-0ubuntu10.18_amd64.deb) ...
+Unpacking replacement libc-bin ...
+Processing triggers for man-db ...
+Setting up libc-bin (2.15-0ubuntu10.18) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70844 files and directories currently installed.)
+Preparing to replace libc6 2.15-0ubuntu10.10 (using .../libc6_2.15-0ubuntu10.18_amd64.deb) ...
+Unpacking replacement libc6 ...
+Setting up libc6 (2.15-0ubuntu10.18) ...
+Setting up libc-dev-bin (2.15-0ubuntu10.18) ...
+Setting up libc6-dev (2.15-0ubuntu10.18) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:update_libssl1.0.0[0K$ sudo apt-get install libssl1.0.0
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 10%Reading package lists... 10%Reading package lists... 11%Reading package lists... 11%Reading package lists... 43%Reading package lists... 46%Reading package lists... 46%Reading package lists... 47%Reading package lists... 47%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... 89%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 24%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  libssl-dev
+The following packages will be upgraded:
+  libssl-dev libssl1.0.0
+2 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Need to get 2,634 kB of archives.
+After this operation, 29.7 kB of additional disk space will be used.
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libssl-dev amd64 1.0.1-4ubuntu5.39 [1,580 kB]
+            1% [1 libssl-dev 14.1 kB/1,580 kB 1%]                                     60% [Working]             Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libssl1.0.0 amd64 1.0.1-4ubuntu5.39 [1,054 kB]
+             60% [2 libssl1.0.0 8,192 B/1,054 kB 1%]                                       100% [Working]              Fetched 2,634 kB in 0s (16.7 MB/s)
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70844 files and directories currently installed.)
+Preparing to replace libssl-dev 1.0.1-4ubuntu5.21 (using .../libssl-dev_1.0.1-4ubuntu5.39_amd64.deb) ...
+Unpacking replacement libssl-dev ...
+Setting up libssl1.0.0 (1.0.1-4ubuntu5.39) ...
+Setting up libssl-dev (1.0.1-4ubuntu5.39) ...
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+travis_fold:end:update_libssl1.0.0[0K
