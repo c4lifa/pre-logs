@@ -1,8 +1,8 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: i-025b3f0-precise-production-2-worker-org-docker.travisci.net:e7357ffb-3865-49a4-8f29-7bebdf1675e9
+hostname: i-091e50d-precise-production-2-worker-org-docker.travisci.net:ed16901f-20cd-4a72-a091-dd2e93a6c931
 version: v2.5.0 https://github.com/travis-ci/worker/tree/da3a43228dffc0fcca5a46569ca786b22991979f
-instance: 8aa2afe:travis:php
-startup: 853.811837ms
+instance: 1fb620e:travis:php
+startup: 578.565549ms
 travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: php
 Build group: stable
@@ -72,3 +72,4 @@ Default locale: en_US, platform encoding: ANSI_X3.4-1968
 OS name: "linux", version: "3.13.0-29-generic", arch: "amd64", family: "unix"
 travis_fold:end:system_info[0K
 travis_fold:start:fix.CVE-2015-7547[0K$ export DEBIAN_FRONTEND=noninteractive
+Reading package lists...
