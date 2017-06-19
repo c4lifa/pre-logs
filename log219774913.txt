@@ -140,4 +140,14 @@ Checking connectivity... done.
 
 travis_time:end:0134172c:start=1497903383867724755,finish=1497903384419148688,duration=551423933[0K$ cd c4lifa/travis
 $ git checkout -qf c0410834a3182e497fc696b91702fd4b764b5586
-travis_fold:end:git.checkout[0K
+travis_fold:end:git.checkout[0Ktravis_time:start:04b238c8[0K$ phpenv global 5.5 2>/dev/null
+
+travis_time:end:04b238c8:start=1497903393832630763,finish=1497903393906518478,duration=73887715[0Ktravis_time:start:01afb908[0K$ phpenv global 5.5
+
+travis_time:end:01afb908:start=1497903393922685692,finish=1497903393982135447,duration=59449755[0Ktravis_time:start:02889c98[0K$ composer self-update 1.0.0
+Updating to version [32m1.0.0[39m.
+    Downloading: [33mconnection...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1d8f05f1dd0e390f253f79ea86cd505178360019
+
+travis_time:end:02889c98:start=1497903394670513976,finish=1497903397450382192,duration=2779868216[0Ktravis_time:start:1055dc6f[0K$ composer self-update
+[30;43mYou are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug[39;49m
