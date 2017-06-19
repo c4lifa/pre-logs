@@ -167,3 +167,21 @@ $ composer --version
 travis_time:start:02618053[0K$ phpunit Test.php
 PHPUnit 4.5.0 by Sebastian Bergmann and contributors.
 
+F
+
+Time: 188 ms, Memory: 4.00Mb
+
+There was 1 failure:
+
+1) Test::testOnePlusOne
+Failed asserting that 1 matches expected 2.
+
+/home/travis/build/c4lifa/travis/Test.php:6
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.
+
+travis_time:end:02618053:start=1497872337639269236,finish=1497872338109148751,duration=469879515[0K
+[31;1mThe command "phpunit Test.php" exited with 1.[0m
+
+Done. Your build exited with 1.
