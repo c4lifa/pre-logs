@@ -146,4 +146,34 @@ travis_time:end:08a28f76:start=1497979193747610128,finish=1497979193770019742,du
 
 travis_time:end:016f5db4:start=1497979193774917992,finish=1497979193795420413,duration=20502421[0Ktravis_time:start:11e07a20[0K$ composer self-update 1.0.0
 Updating to version [32m1.0.0[39m.
-    Downloading: [33mconnection...[39m
+    Downloading: [33mconnection...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1d8f05f1dd0e390f253f79ea86cd505178360019
+
+travis_time:end:11e07a20:start=1497979194032993184,finish=1497979196261490528,duration=2228497344[0Ktravis_time:start:1c93c3f0[0K$ composer self-update
+[30;43mYou are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug[39;49m
+Updating to version [32m1.4.2[39m.
+    Downloading: [33mConnecting...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1.0.0
+
+travis_time:end:1c93c3f0:start=1497979196266107492,finish=1497979199082993422,duration=2816885930[0K$ php --version
+PHP 5.5.21 (cli) (built: Feb 12 2015 01:29:17) 
+Copyright (c) 1997-2014 The PHP Group
+Zend Engine v2.5.0, Copyright (c) 1998-2014 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2014, by Zend Technologies
+    with Xdebug v2.2.7, Copyright (c) 2002-2015, by Derick Rethans
+$ composer --version
+[32mComposer[39m version [33m1.4.2[39m 2017-05-17 08:17:52
+[0m
+travis_time:start:2077dcf1[0K$ phpunit Test.php
+PHPUnit 4.5.0 by Sebastian Bergmann and contributors.
+
+.
+
+Time: 266 ms, Memory: 3.75Mb
+
+OK (1 test, 1 assertion)
+
+travis_time:end:2077dcf1:start=1497979199337623143,finish=1497979199680807342,duration=343184199[0K
+[32;1mThe command "phpunit Test.php" exited with 0.[0m
+
+Done. Your build exited with 0.
