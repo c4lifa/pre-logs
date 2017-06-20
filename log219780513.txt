@@ -1,8 +1,8 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: i-0794ce6-precise-production-2-worker-org-docker.travisci.net:3f01a26c-86eb-4164-a088-d3e50c1f4164
+hostname: i-0f14d6c-precise-production-2-worker-org-docker.travisci.net:d8524507-f351-4444-bbab-3993737693ce
 version: v2.5.0 https://github.com/travis-ci/worker/tree/da3a43228dffc0fcca5a46569ca786b22991979f
-instance: 842019c:travis:php
-startup: 591.604034ms
+instance: cddd1eb:travis:php
+startup: 528.060264ms
 travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: php
 Build group: stable
@@ -71,109 +71,3 @@ Java home: /usr/lib/jvm/java-7-oracle/jre
 Default locale: en_US, platform encoding: ANSI_X3.4-1968
 OS name: "linux", version: "3.13.0-29-generic", arch: "amd64", family: "unix"
 travis_fold:end:system_info[0K
-travis_fold:start:fix.CVE-2015-7547[0K$ export DEBIAN_FRONTEND=noninteractive
-Reading package lists...
-Building dependency tree...
-Reading state information...
-The following extra packages will be installed:
-  libc-bin libc-dev-bin libc6-dev
-Suggested packages:
-  glibc-doc
-The following packages will be upgraded:
-  libc-bin libc-dev-bin libc6 libc6-dev
-4 upgraded, 0 newly installed, 0 to remove and 273 not upgraded.
-Need to get 8,856 kB of archives.
-After this operation, 13.3 kB of additional disk space will be used.
-Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libc6-dev amd64 2.15-0ubuntu10.18 [2,948 kB]
-Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libc-dev-bin amd64 2.15-0ubuntu10.18 [84.5 kB]
-Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libc-bin amd64 2.15-0ubuntu10.18 [1,178 kB]
-Get:4 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libc6 amd64 2.15-0ubuntu10.18 [4,646 kB]
-Fetched 8,856 kB in 0s (36.7 MB/s)
-Preconfiguring packages ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70845 files and directories currently installed.)
-Preparing to replace libc6-dev 2.15-0ubuntu10.10 (using .../libc6-dev_2.15-0ubuntu10.18_amd64.deb) ...
-Unpacking replacement libc6-dev ...
-Preparing to replace libc-dev-bin 2.15-0ubuntu10.10 (using .../libc-dev-bin_2.15-0ubuntu10.18_amd64.deb) ...
-Unpacking replacement libc-dev-bin ...
-Preparing to replace libc-bin 2.15-0ubuntu10.10 (using .../libc-bin_2.15-0ubuntu10.18_amd64.deb) ...
-Unpacking replacement libc-bin ...
-Processing triggers for man-db ...
-Setting up libc-bin (2.15-0ubuntu10.18) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70844 files and directories currently installed.)
-Preparing to replace libc6 2.15-0ubuntu10.10 (using .../libc6_2.15-0ubuntu10.18_amd64.deb) ...
-Unpacking replacement libc6 ...
-Setting up libc6 (2.15-0ubuntu10.18) ...
-Setting up libc-dev-bin (2.15-0ubuntu10.18) ...
-Setting up libc6-dev (2.15-0ubuntu10.18) ...
-Processing triggers for libc-bin ...
-ldconfig deferred processing now taking place
-travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:update_libssl1.0.0[0K$ sudo apt-get install libssl1.0.0
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 10%Reading package lists... 10%Reading package lists... 11%Reading package lists... 11%Reading package lists... 30%Reading package lists... 46%Reading package lists... 46%Reading package lists... 47%Reading package lists... 47%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... 58%Reading package lists... 60%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 79%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-The following extra packages will be installed:
-  libssl-dev
-The following packages will be upgraded:
-  libssl-dev libssl1.0.0
-2 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
-Need to get 2,634 kB of archives.
-After this operation, 29.7 kB of additional disk space will be used.
-0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libssl-dev amd64 1.0.1-4ubuntu5.39 [1,580 kB]
-            1% [1 libssl-dev 14.1 kB/1,580 kB 1%]                                     Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libssl1.0.0 amd64 1.0.1-4ubuntu5.39 [1,054 kB]
-                                     65% [2 libssl1.0.0 123 kB/1,054 kB 12%]                                       100% [Working]              Fetched 2,634 kB in 0s (13.2 MB/s)
-Preconfiguring packages ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70844 files and directories currently installed.)
-Preparing to replace libssl-dev 1.0.1-4ubuntu5.21 (using .../libssl-dev_1.0.1-4ubuntu5.39_amd64.deb) ...
-Unpacking replacement libssl-dev ...
-Preparing to replace libssl1.0.0 1.0.1-4ubuntu5.21 (using .../libssl1.0.0_1.0.1-4ubuntu5.39_amd64.deb) ...
-Unpacking replacement libssl1.0.0 ...
-Setting up libssl1.0.0 (1.0.1-4ubuntu5.39) ...
-Setting up libssl-dev (1.0.1-4ubuntu5.39) ...
-Processing triggers for libc-bin ...
-ldconfig deferred processing now taking place
-travis_fold:end:update_libssl1.0.0[0Ktravis_fold:start:git.checkout[0Ktravis_time:start:0694e48f[0K$ git clone --depth=50 --branch=master https://github.com/c4lifa/travis.git c4lifa/travis
-Cloning into 'c4lifa/travis'...
-remote: Counting objects: 81, done.[K
-remote: Total 81 (delta 0), reused 0 (delta 0), pack-reused 81[K
-Unpacking objects:   1% (1/81)   Unpacking objects:   2% (2/81)   Unpacking objects:   3% (3/81)   Unpacking objects:   4% (4/81)   Unpacking objects:   6% (5/81)   Unpacking objects:   7% (6/81)   Unpacking objects:   8% (7/81)   Unpacking objects:   9% (8/81)   Unpacking objects:  11% (9/81)   Unpacking objects:  12% (10/81)   Unpacking objects:  13% (11/81)   Unpacking objects:  14% (12/81)   Unpacking objects:  16% (13/81)   Unpacking objects:  17% (14/81)   Unpacking objects:  18% (15/81)   Unpacking objects:  19% (16/81)   Unpacking objects:  20% (17/81)   Unpacking objects:  22% (18/81)   Unpacking objects:  23% (19/81)   Unpacking objects:  24% (20/81)   Unpacking objects:  25% (21/81)   Unpacking objects:  27% (22/81)   Unpacking objects:  28% (23/81)   Unpacking objects:  29% (24/81)   Unpacking objects:  30% (25/81)   Unpacking objects:  32% (26/81)   Unpacking objects:  33% (27/81)   Unpacking objects:  34% (28/81)   Unpacking objects:  35% (29/81)   Unpacking objects:  37% (30/81)   Unpacking objects:  38% (31/81)   Unpacking objects:  39% (32/81)   Unpacking objects:  40% (33/81)   Unpacking objects:  41% (34/81)   Unpacking objects:  43% (35/81)   Unpacking objects:  44% (36/81)   Unpacking objects:  45% (37/81)   Unpacking objects:  46% (38/81)   Unpacking objects:  48% (39/81)   Unpacking objects:  49% (40/81)   Unpacking objects:  50% (41/81)   Unpacking objects:  51% (42/81)   Unpacking objects:  53% (43/81)   Unpacking objects:  54% (44/81)   Unpacking objects:  55% (45/81)   Unpacking objects:  56% (46/81)   Unpacking objects:  58% (47/81)   Unpacking objects:  59% (48/81)   Unpacking objects:  60% (49/81)   Unpacking objects:  61% (50/81)   Unpacking objects:  62% (51/81)   Unpacking objects:  64% (52/81)   Unpacking objects:  65% (53/81)   Unpacking objects:  66% (54/81)   Unpacking objects:  67% (55/81)   Unpacking objects:  69% (56/81)   Unpacking objects:  70% (57/81)   Unpacking objects:  71% (58/81)   Unpacking objects:  72% (59/81)   Unpacking objects:  74% (60/81)   Unpacking objects:  75% (61/81)   Unpacking objects:  76% (62/81)   Unpacking objects:  77% (63/81)   Unpacking objects:  79% (64/81)   Unpacking objects:  80% (65/81)   Unpacking objects:  81% (66/81)   Unpacking objects:  82% (67/81)   Unpacking objects:  83% (68/81)   Unpacking objects:  85% (69/81)   Unpacking objects:  86% (70/81)   Unpacking objects:  87% (71/81)   Unpacking objects:  88% (72/81)   Unpacking objects:  90% (73/81)   Unpacking objects:  91% (74/81)   Unpacking objects:  92% (75/81)   Unpacking objects:  93% (76/81)   Unpacking objects:  95% (77/81)   Unpacking objects:  96% (78/81)   Unpacking objects:  97% (79/81)   Unpacking objects:  98% (80/81)   Unpacking objects: 100% (81/81)   Unpacking objects: 100% (81/81), done.
-Checking connectivity... done.
-
-travis_time:end:0694e48f:start=1497994355900218041,finish=1497994356532522212,duration=632304171[0K$ cd c4lifa/travis
-$ git checkout -qf 271c9296f7836ed6e90446bea68635e6396d577a
-travis_fold:end:git.checkout[0Ktravis_time:start:18701e50[0K$ phpenv global 5.5 2>/dev/null
-
-travis_time:end:18701e50:start=1497994363712720471,finish=1497994363779860271,duration=67139800[0Ktravis_time:start:0581c088[0K$ phpenv global 5.5
-
-travis_time:end:0581c088:start=1497994363812698073,finish=1497994363874280519,duration=61582446[0Ktravis_time:start:2ab4782e[0K$ composer self-update 1.0.0
-Updating to version [32m1.0.0[39m.
-    Downloading: [33mconnection...[39m    Downloading: [33m100%[39m         
-Use [32mcomposer self-update --rollback[39m to return to version 1d8f05f1dd0e390f253f79ea86cd505178360019
-
-travis_time:end:2ab4782e:start=1497994364480765969,finish=1497994366703196655,duration=2222430686[0Ktravis_time:start:04e6ea2a[0K$ composer self-update
-[30;43mYou are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug[39;49m
-Updating to version [32m1.4.2[39m.
-    Downloading: [33mConnecting...[39m    Downloading: [33m100%[39m         
-Use [32mcomposer self-update --rollback[39m to return to version 1.0.0
-
-travis_time:end:04e6ea2a:start=1497994366716574266,finish=1497994369600669861,duration=2884095595[0K$ php --version
-PHP 5.5.21 (cli) (built: Feb 12 2015 01:29:17) 
-Copyright (c) 1997-2014 The PHP Group
-Zend Engine v2.5.0, Copyright (c) 1998-2014 Zend Technologies
-    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2014, by Zend Technologies
-    with Xdebug v2.2.7, Copyright (c) 2002-2015, by Derick Rethans
-$ composer --version
-[32mComposer[39m version [33m1.4.2[39m 2017-05-17 08:17:52
-[0m
-travis_time:start:1046ac85[0K$ phpunit Test.php
-PHPUnit 4.5.0 by Sebastian Bergmann and contributors.
-
-.
-
-Time: 82 ms, Memory: 3.75Mb
-
-OK (1 test, 1 assertion)
-
-travis_time:end:1046ac85:start=1497994370244507108,finish=1497994370528535161,duration=284028053[0K
-[32;1mThe command "phpunit Test.php" exited with 0.[0m
-
-Done. Your build exited with 0.
