@@ -152,7 +152,7 @@ Use [32mcomposer self-update --rollback[39m to return to version 1d8f05f1dd0e3
 travis_time:end:0265b1d0:start=1497996074119140394,finish=1497996076364734782,duration=2245594388[0Ktravis_time:start:029ced1e[0K$ composer self-update
 [30;43mYou are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug[39;49m
 Updating to version [32m1.4.2[39m.
-    Downloading: [33m100%[39m         
+    Downloading: [33mConnecting...[39m    Downloading: [33m100%[39m         
 Use [32mcomposer self-update --rollback[39m to return to version 1.0.0
 
 travis_time:end:029ced1e:start=1497996076371721388,finish=1497996079263273416,duration=2891552028[0K$ php --version
