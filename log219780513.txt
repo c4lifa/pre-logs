@@ -156,3 +156,24 @@ Updating to version [32m1.4.2[39m.
 Use [32mcomposer self-update --rollback[39m to return to version 1.0.0
 
 travis_time:end:0474ce40:start=1497995532316146241,finish=1497995535226702074,duration=2910555833[0K$ php --version
+PHP 5.5.21 (cli) (built: Feb 12 2015 01:29:17) 
+Copyright (c) 1997-2014 The PHP Group
+Zend Engine v2.5.0, Copyright (c) 1998-2014 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2014, by Zend Technologies
+    with Xdebug v2.2.7, Copyright (c) 2002-2015, by Derick Rethans
+$ composer --version
+[32mComposer[39m version [33m1.4.2[39m 2017-05-17 08:17:52
+[0m
+travis_time:start:081c56d0[0K$ phpunit Test.php
+PHPUnit 4.5.0 by Sebastian Bergmann and contributors.
+
+.
+
+Time: 936 ms, Memory: 3.75Mb
+
+OK (1 test, 1 assertion)
+
+travis_time:end:081c56d0:start=1497995536600271762,finish=1497995537744193266,duration=1143921504[0K
+[32;1mThe command "phpunit Test.php" exited with 0.[0m
+
+Done. Your build exited with 0.
