@@ -140,4 +140,25 @@ Checking connectivity... done.
 
 travis_time:end:0694e48f:start=1497994355900218041,finish=1497994356532522212,duration=632304171[0K$ cd c4lifa/travis
 $ git checkout -qf 271c9296f7836ed6e90446bea68635e6396d577a
-travis_fold:end:git.checkout[0K
+travis_fold:end:git.checkout[0Ktravis_time:start:18701e50[0K$ phpenv global 5.5 2>/dev/null
+
+travis_time:end:18701e50:start=1497994363712720471,finish=1497994363779860271,duration=67139800[0Ktravis_time:start:0581c088[0K$ phpenv global 5.5
+
+travis_time:end:0581c088:start=1497994363812698073,finish=1497994363874280519,duration=61582446[0Ktravis_time:start:2ab4782e[0K$ composer self-update 1.0.0
+Updating to version [32m1.0.0[39m.
+    Downloading: [33mconnection...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1d8f05f1dd0e390f253f79ea86cd505178360019
+
+travis_time:end:2ab4782e:start=1497994364480765969,finish=1497994366703196655,duration=2222430686[0Ktravis_time:start:04e6ea2a[0K$ composer self-update
+[30;43mYou are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug[39;49m
+Updating to version [32m1.4.2[39m.
+    Downloading: [33mConnecting...[39m    Downloading: [33m100%[39m         
+Use [32mcomposer self-update --rollback[39m to return to version 1.0.0
+
+travis_time:end:04e6ea2a:start=1497994366716574266,finish=1497994369600669861,duration=2884095595[0K$ php --version
+PHP 5.5.21 (cli) (built: Feb 12 2015 01:29:17) 
+Copyright (c) 1997-2014 The PHP Group
+Zend Engine v2.5.0, Copyright (c) 1998-2014 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2014, by Zend Technologies
+    with Xdebug v2.2.7, Copyright (c) 2002-2015, by Derick Rethans
+$ composer --version
