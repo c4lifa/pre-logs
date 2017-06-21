@@ -149,4 +149,17 @@ Computing checksum with sha256sum
 Checksums matched!
 Now using node v6.11.0 (npm v3.10.10)
 
-travis_time:end:04ab05fe:start=1498068557599660412,finish=1498068562407624825,duration=4807964413[0Ktravis_fold:end:nvm.install[0K
+travis_time:end:04ab05fe:start=1498068557599660412,finish=1498068562407624825,duration=4807964413[0Ktravis_fold:end:nvm.install[0K[33;1mStarting with io.js 3 and Node.js 4, building native extensions requires C++11-compatible compiler, which seems unavailable on this VM. Please read https://docs.travis-ci.com/user/languages/javascript-with-nodejs#Node.js-v4-(or-io.js-v3)-compiler-requirements.[0m
+$ node --version
+v6.11.0
+$ npm --version
+3.10.10
+$ nvm --version
+0.33.2
+travis_time:start:185c37f4[0K$ test.js
+/home/travis/.travis/job_stages: line 54: test.js: command not found
+
+travis_time:end:185c37f4:start=1498068564759601591,finish=1498068564779412406,duration=19810815[0K
+[31;1mThe command "test.js" exited with 127.[0m
+
+Done. Your build exited with 1.
